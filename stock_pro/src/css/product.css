@@ -1,0 +1,121 @@
+body{
+    overflow-x: hidden;
+}
+
+
+
+.general-container{
+    margin-left: 100px;
+    height: 100%;
+    background-color: #F9F6EE;
+  
+}
+.product-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 100%;
+    background-color: #F9F6EE;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.product-img{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+.product-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    width: 50%;
+  
+}
+
+
+.product-data hr{
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid 2px black;
+}
+
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 50px;
+}
+
+.stock-button{
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.stock-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#add-stock{
+    background-color: #00e91d;
+}
+
+#remove-stock{
+    background-color: #f30d0d;
+}
+
+
+#show-profit{
+    background-color: #00e91b;
+    margin-top: 550px;
+    margin-left: -100px;
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+    border:3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+#show-profit:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+
+
+}
+
+
+.supplier-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    width: 50%;
+    gap: 30px;
+  
+  
+}

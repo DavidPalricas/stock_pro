@@ -1,0 +1,21 @@
+
+.back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 150px;
+    margin-top: 30px;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    scale: 2.5;
+    color: #ff3a20;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.5s;
+}

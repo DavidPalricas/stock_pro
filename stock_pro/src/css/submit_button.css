@@ -1,0 +1,24 @@
+#submit_button {
+    background-color: #ff3a20;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    height: 100px;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#submit_button:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1400px) {
+    #submit_button {
+        width: 280px;
+        height: 80px;
+    }
+}

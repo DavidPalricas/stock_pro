@@ -1,0 +1,21 @@
+
+
+.general-container{
+    margin-left: 100px;
+    height: 100%;
+    
+}
+
+.info_btn{
+    margin-left: 90%;
+}
+
+.stock_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 35%;
+    gap: 30px;
+}

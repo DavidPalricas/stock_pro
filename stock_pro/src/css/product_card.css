@@ -1,0 +1,112 @@
+
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+
+.quantity{
+    position: absolute;
+    top:0%;
+    right: 10%;
+}
+
+.product-image{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button-card{
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    gap:20px;
+    position: relative;
+    top:10%;
+    left: 30%;
+
+}
+
+
+.product{
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+
+.button-card:hover > .card {
+   
+    transform: scale(1.1);
+    transition: 0.5s;
+
+  }
+
+
+
+
+
+#product-data{
+   opacity: 0;
+   position: absolute;
+   align-items: center;
+   color: #ff3a20;
+   background-color: rgba(245, 245, 220, 0.5); /* Beje semi-transparente*/
+   border: 2px solid black;
+   height: 70px;
+   width: 200px;
+   font-size: 30px;
+   font-weight :bolder;
+   font-style: underline;
+   visibility: hidden;
+   top: 20%;
+   font-size: 25px;
+   cursor: pointer;
+   transition: opacity 0.8s;
+    
+
+}
+
+.card:hover > #product-data{
+    visibility: visible;
+    transition: opacity 0.8s;
+    opacity: 1;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.product-price{
+    font-size: 20px;
+    font-style: italic;
+    color:#ff3a20;
+  
+}
+
+.product-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+  
+
+  
